@@ -3,6 +3,7 @@ easier way to obfuscate and minify your entire javascript package
 
 
 ## Implementation
+```
 const obfuscator = require('directory-obfuscator');
 
 //example entryFile
@@ -18,6 +19,7 @@ let subFolders = [
 
 //throw it in a await / promise if you need it to finish before moving on
 obfuscator.obfuscate(entryFile, subFolders);
+```
 
 
 **********IN PACKAGE.JSON***********
@@ -26,6 +28,7 @@ Create a run script that performs 'sudo node buildFile.js' (sudo on mac only)
 
 ## Electron-Builder Implementation
 
+```
   "build": {
     "asar": false,
     "productName": "Name",
@@ -46,6 +49,7 @@ Create a run script that performs 'sudo node buildFile.js' (sudo on mac only)
       "createDesktopShortcut": "always"
     }
   }
+  ```
   
   Create a run script that performs 'sudo node buildFile.js && electron-builder --mac' (or --win for the windows build) in package.json
   
