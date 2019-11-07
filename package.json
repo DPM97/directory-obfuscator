@@ -1,5 +1,5 @@
 {
-  "name": "electron-obfuscator",
+  "name": "directory-obfuscator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DPM97/electron-obfuscator.git"
+    "url": "git+https://github.com/DPM97/directory-obfuscator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DPM97/electron-obfuscator/issues"
+    "url": "https://github.com/DPM97/directory-obfuscator/issues"
   },
-  "homepage": "https://github.com/DPM97/electron-obfuscator#readme",
+  "homepage": "https://github.com/DPM97/directory-obfuscator#readme",
   "dependencies": {
     "child_process": "^1.0.2",
     "fs": "0.0.1-security",
