@@ -1,6 +1,7 @@
 # directory-obfuscator
 easier way to obfuscate and minify your entire javascript package
 
+[![npm version](https://badge.fury.io/js/directory-obfuscator.svg)](https://badge.fury.io/js/directory-obfuscator)
 
 ## Implementation
 ```
