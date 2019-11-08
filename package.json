@@ -1,6 +1,6 @@
 {
   "name": "directory-obfuscator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
     "glob": "^7.1.6",
     "html-minifier": "^4.0.0",
     "javascript-obfuscator": "^0.18.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "rimraf": "^3.0.0"
   }
 }

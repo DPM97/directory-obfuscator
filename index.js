@@ -5,6 +5,8 @@ const { execSync } = require('child_process');
 const JavaScriptObfuscator = require('javascript-obfuscator');
 const glob = require('glob')
 const minify = require('html-minifier').minify;
+const rimraf = require("rimraf");
+
 
 var finished = false;
 
@@ -12,6 +14,7 @@ function createBuildFolder(mainFile, subFolders) {
     return new Promise(async(resolve, reject) => {
         if (await fs.existsSync('./build')) {
             await execSync('rm -r ./build')
+            await rimraf("./build");
             await fs.mkdir('./build', async function (e) {
                 console.log('\x1b[32m', 'created new build folder\n')
                 await populateBuildFolder(mainFile, subFolders);
