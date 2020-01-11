@@ -24,6 +24,10 @@ obfuscator.obfuscate(entryFile, subFolders);
 
 
 **********IN PACKAGE.JSON***********
+Set main to the build folder
+```
+"main": "build/index.js",
+```
 Create a run script that performs 'sudo node buildFile.js' (sudo on mac only)
 
 
