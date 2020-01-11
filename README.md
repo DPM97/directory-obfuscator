@@ -24,6 +24,7 @@ obfuscator.obfuscate(entryFile, subFolders);
 
 
 **********IN PACKAGE.JSON***********
+
 Set main to the build folder
 ```
 "main": "build/index.js",
